@@ -25,7 +25,7 @@ cd datatable
 php artisan serve
 ```
 
-Kết nối database (open .env)
+## Kết nối database (open .env)
 ```sh
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -34,7 +34,7 @@ DB_DATABASE=laraveldb
 DB_USERNAME=root
 DB_PASSWORD=""
 ```
-Tạo bảng
+## Tạo bảng
 ```sh
 php artisan make:migration create_customers_table
 ```
@@ -59,11 +59,11 @@ return new class extends Migration
 ```sh
 php artisan migrate 
 ```
-Tạo model
+## Tạo model
 ```sh
 php artisan make:model Customers
 ```
-Tạo controller
+## Tạo controller
 ```sh
 php artisan make:controller CustomersController
 ```
@@ -174,11 +174,11 @@ $(document).ready(function() {
 </body>
 </html>
 ```
-Install Laravel DataTables
+## Install Laravel DataTables
 ```sh
 composer require yajra/laravel-datatables:^10.0
 ```
-
+## Chạy thôi
 ```sh
 php artisan serve
 ```
