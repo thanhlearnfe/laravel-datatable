@@ -4,9 +4,9 @@
 
 ## Cấu hình
 
-php 8.1
-<a href="https://laravel.com/docs/10.x/installation">laravel 10</a>
-<a href="https://yajrabox.com/docs/laravel-datatables/10.0/installation">yajrabox 10.0</a>
+php 8.1,
+<a href="https://laravel.com/docs/10.x/installation">laravel 10</a>,
+<a href="https://yajrabox.com/docs/laravel-datatables/10.0/installation">yajrabox 10.0</a>,
 <a href="https://cdn.datatables.net/1.10.21/">datatables</a>
 bootstrap 5
 jquery 3.6.0
